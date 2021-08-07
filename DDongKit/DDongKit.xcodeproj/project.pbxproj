@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D361302D26BDA99C0060A5B3 /* DDongKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D361302B26BDA99C0060A5B3 /* DDongKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D361303526BDA9C00060A5B3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D361303426BDA9C00060A5B3 /* Validator.swift */; };
+		D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9826BEB2A20051B513 /* String_Extension.swift */; };
+		D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		D361302B26BDA99C0060A5B3 /* DDongKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDongKit.h; sourceTree = "<group>"; };
 		D361302C26BDA99C0060A5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D361303426BDA9C00060A5B3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		D3FDEB9826BEB2A20051B513 /* String_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
+		D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRegularExpression_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +54,27 @@
 			children = (
 				D361302B26BDA99C0060A5B3 /* DDongKit.h */,
 				D361302C26BDA99C0060A5B3 /* Info.plist */,
-				D361303426BDA9C00060A5B3 /* Validator.swift */,
+				D3FDEBAD26BEC6160051B513 /* SingleTon */,
+				D3FDEB9726BEB28E0051B513 /* Extension */,
 			);
 			path = DDongKit;
+			sourceTree = "<group>";
+		};
+		D3FDEB9726BEB28E0051B513 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDEB9826BEB2A20051B513 /* String_Extension.swift */,
+				D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3FDEBAD26BEC6160051B513 /* SingleTon */ = {
+			isa = PBXGroup;
+			children = (
+				D361303426BDA9C00060A5B3 /* Validator.swift */,
+			);
+			path = SingleTon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */,
+				D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */,
 				D361303526BDA9C00060A5B3 /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

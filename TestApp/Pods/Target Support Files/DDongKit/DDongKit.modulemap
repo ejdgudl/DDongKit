@@ -1,6 +1,0 @@
-framework module DDongKit {
-  umbrella header "DDongKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

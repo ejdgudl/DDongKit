@@ -7,6 +7,16 @@
 
 import Foundation
 
+public extension String {
+    
+    // MARK: - Variable
+    // localized
+    var localized: String {
+        return NSLocalizedString(self, tableName: "Localizable", value: self, comment: "")
+    }
+    
+}
+
 extension String {
     
     /// vaildateRegex

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D361302D26BDA99C0060A5B3 /* DDongKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D361302B26BDA99C0060A5B3 /* DDongKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D361303526BDA9C00060A5B3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D361303426BDA9C00060A5B3 /* Validator.swift */; };
+		D39F385526D3C9E700C54806 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F385426D3C9E700C54806 /* Storage.swift */; };
 		D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9826BEB2A20051B513 /* String_Extension.swift */; };
 		D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */; };
 /* End PBXBuildFile section */
@@ -18,6 +19,7 @@
 		D361302B26BDA99C0060A5B3 /* DDongKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDongKit.h; sourceTree = "<group>"; };
 		D361302C26BDA99C0060A5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D361303426BDA9C00060A5B3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		D39F385426D3C9E700C54806 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		D3FDEB9826BEB2A20051B513 /* String_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
 		D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRegularExpression_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				D361303426BDA9C00060A5B3 /* Validator.swift */,
+				D39F385426D3C9E700C54806 /* Storage.swift */,
 			);
 			path = SingleTon;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */,
+				D39F385526D3C9E700C54806 /* Storage.swift in Sources */,
 				D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */,
 				D361303526BDA9C00060A5B3 /* Validator.swift in Sources */,
 			);

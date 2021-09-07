@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/ejdgudl/DDongKit.git", :tag => spec.version.to_s }
   spec.source_files  = "DDongKit/**/*.{swift}"
   spec.swift_versions = "5.0"
+  spec.dependency "SDWebImage"
 end

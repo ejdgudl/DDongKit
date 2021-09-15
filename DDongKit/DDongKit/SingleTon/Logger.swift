@@ -11,9 +11,9 @@ import os
 import Foundation
 
 public class Logger {
-    public static func print(_ message: StaticString, type: OSLogType, fileName: String?, functionName: String, line: Int) {
-        os_log(message, type: type)
+    public static func print(_ message: String, type: OSLogType, fileName: String?, functionName: String, line: Int) {
+        os_log("%@", type: type, message)
         guard fileName != nil else { return }
-        Swift.print("👉🏻 fileName: \(fileName ?? "")\n👉🏻 functionName: \(functionName) \nline: \(line)")
+        Swift.print("👉🏻 fileName: \(fileName ?? "")\n👉🏻 functionName: \(functionName) \n👉🏻 line: \(line)")
     }
 }

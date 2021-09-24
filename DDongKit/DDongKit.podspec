@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DDongKit"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "DDongKit Library"
   spec.description  = "This is the library that will be used in my project."
   spec.homepage     = "https://github.com/ejdgudl/DDongKit"

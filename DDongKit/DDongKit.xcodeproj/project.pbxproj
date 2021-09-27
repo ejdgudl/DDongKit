@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D333E1FA26FE2EA4003DDDFE /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */; };
+		D333E21427020AF5003DDDFE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E21327020AF5003DDDFE /* Navigation.swift */; };
 		D35833F326F234690079AE3D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35833F226F234690079AE3D /* Logger.swift */; };
 		D361302D26BDA99C0060A5B3 /* DDongKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D361302B26BDA99C0060A5B3 /* DDongKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D361303526BDA9C00060A5B3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D361303426BDA9C00060A5B3 /* Validator.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
+		D333E21327020AF5003DDDFE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		D35833F226F234690079AE3D /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D361302826BDA99C0060A5B3 /* DDongKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDongKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D361302B26BDA99C0060A5B3 /* DDongKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDongKit.h; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D333E21227020AE4003DDDFE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D333E21327020AF5003DDDFE /* Navigation.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		D361301E26BDA99C0060A5B3 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 			children = (
 				D361302B26BDA99C0060A5B3 /* DDongKit.h */,
 				D361302C26BDA99C0060A5B3 /* Info.plist */,
+				D333E21227020AE4003DDDFE /* ViewController */,
 				D3FDEBAD26BEC6160051B513 /* SingleTon */,
 				D3FDEB9726BEB28E0051B513 /* Extension */,
 			);
@@ -181,6 +192,7 @@
 				D35833F326F234690079AE3D /* Logger.swift in Sources */,
 				D39F385526D3C9E700C54806 /* Storage.swift in Sources */,
 				D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */,
+				D333E21427020AF5003DDDFE /* Navigation.swift in Sources */,
 				D3941DF126E74E8F0025F3B9 /* UIImageView_Extension.swift in Sources */,
 				D361303526BDA9C00060A5B3 /* Validator.swift in Sources */,
 			);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32C2CB5270C5F6D00040002 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */; };
 		D333E1FA26FE2EA4003DDDFE /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */; };
 		D333E21427020AF5003DDDFE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E21327020AF5003DDDFE /* Navigation.swift */; };
 		D333E26727088F74003DDDFE /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E26627088F74003DDDFE /* Layer.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 		D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
 		D333E21327020AF5003DDDFE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		D333E26627088F74003DDDFE /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D3941DF026E74E8F0025F3B9 /* UIImageView_Extension.swift */,
 				D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */,
 				D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */,
+				D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				D333E26727088F74003DDDFE /* Layer.swift in Sources */,
 				D3941DF126E74E8F0025F3B9 /* UIImageView_Extension.swift in Sources */,
 				D361303526BDA9C00060A5B3 /* Validator.swift in Sources */,
+				D32C2CB5270C5F6D00040002 /* UIColor_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

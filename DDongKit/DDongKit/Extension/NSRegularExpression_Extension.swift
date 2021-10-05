@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSRegularExpression {
+public extension NSRegularExpression {
     
     /// convenience init
     /// - Parameter pattern: 정규 표현식 패턴.

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DDongKit"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.3"
   spec.summary      = "DDongKit Library"
   spec.description  = "This is the library that will be used in my project."
   spec.homepage     = "https://github.com/ejdgudl/DDongKit"
@@ -11,4 +11,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = "DDongKit/**/*.{swift}"
   spec.swift_versions = "5.0"
   spec.dependency "SDWebImage"
+  spec.dependency "Alamofire"
+  spec.dependency "ObjectMapper"
 end

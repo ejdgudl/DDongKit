@@ -8,14 +8,12 @@
 import UIKit
 
 public extension UIView {
-    
     /// roundCorners
-    /// - Parameter corners: corners (ex. top, left, right, bottom)
+    /// - Parameter corners: corners (ex. layerMinXMinYCorner, layerMaxXMinYCorner, layerMinXMaxYCorner, layerMaxXMaxYCorner)
     /// - Parameter radius: radius value
-    func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
-        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
-        let mask = CAShapeLayer()
-        mask.path = path.cgPath
-        layer.mask = mask
+    func roundCorners(corners: CACornerMask, radius: CGFloat) {
+        clipsToBounds = true
+        layer.cornerRadius = radius
+        layer.maskedCorners = CACornerMask(arrayLiteral: corners)
     }
 }

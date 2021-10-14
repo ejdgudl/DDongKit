@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30F182227188E8F00168D61 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F182127188E8F00168D61 /* AlertManager.swift */; };
 		D32C2CB5270C5F6D00040002 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */; };
 		D333E1FA26FE2EA4003DDDFE /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */; };
 		D333E21427020AF5003DDDFE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D333E21327020AF5003DDDFE /* Navigation.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30F182127188E8F00168D61 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 		D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
 		D333E21327020AF5003DDDFE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				D361303426BDA9C00060A5B3 /* Validator.swift */,
 				D39F385426D3C9E700C54806 /* Storage.swift */,
 				D35833F226F234690079AE3D /* Logger.swift */,
+				D30F182127188E8F00168D61 /* AlertManager.swift */,
 			);
 			path = SingleTon;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */,
 				D35833F326F234690079AE3D /* Logger.swift in Sources */,
 				D39F385526D3C9E700C54806 /* Storage.swift in Sources */,
+				D30F182227188E8F00168D61 /* AlertManager.swift in Sources */,
 				D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */,
 				D333E21427020AF5003DDDFE /* Navigation.swift in Sources */,
 				D333E26727088F74003DDDFE /* Layer.swift in Sources */,

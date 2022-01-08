@@ -21,6 +21,7 @@
 		D392C6A6270F2E860093D207 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D392C6A5270F2E860093D207 /* Alamofire */; };
 		D3941DF126E74E8F0025F3B9 /* UIImageView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3941DF026E74E8F0025F3B9 /* UIImageView_Extension.swift */; };
 		D3941DF426E74EBB0025F3B9 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D3941DF326E74EBB0025F3B9 /* SDWebImage */; };
+		D398E84C27895D8B000E7099 /* Nib_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398E84B27895D8B000E7099 /* Nib_Extension.swift */; };
 		D39F385526D3C9E700C54806 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F385426D3C9E700C54806 /* Storage.swift */; };
 		D3FDEB9926BEB2A20051B513 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9826BEB2A20051B513 /* String_Extension.swift */; };
 		D3FDEB9C26BEB2F40051B513 /* NSRegularExpression_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */; };
@@ -40,6 +41,7 @@
 		D392C69C270F22DF0093D207 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		D392C69F270F2E090093D207 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D3941DF026E74E8F0025F3B9 /* UIImageView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView_Extension.swift; sourceTree = "<group>"; };
+		D398E84B27895D8B000E7099 /* Nib_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib_Extension.swift; sourceTree = "<group>"; };
 		D39F385426D3C9E700C54806 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		D3FDEB9826BEB2A20051B513 /* String_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
 		D3FDEB9B26BEB2F40051B513 /* NSRegularExpression_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRegularExpression_Extension.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				D333E1F926FE2EA4003DDDFE /* UITextField_Extension.swift */,
 				D32C2CB4270C5F6D00040002 /* UIColor_Extension.swift */,
 				D392C69C270F22DF0093D207 /* NSObject.swift */,
+				D398E84B27895D8B000E7099 /* Nib_Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				D333E26727088F74003DDDFE /* Layer.swift in Sources */,
 				D3941DF126E74E8F0025F3B9 /* UIImageView_Extension.swift in Sources */,
 				D361303526BDA9C00060A5B3 /* Validator.swift in Sources */,
+				D398E84C27895D8B000E7099 /* Nib_Extension.swift in Sources */,
 				D392C6A0270F2E090093D207 /* API.swift in Sources */,
 				D32C2CB5270C5F6D00040002 /* UIColor_Extension.swift in Sources */,
 			);
